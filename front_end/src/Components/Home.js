@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
-import { Button, Card, Row, Col } from "reactstrap";
+import {Container, Button, Card, Row, Col } from "reactstrap";
 import Img from '../Assets/yazan.jpg';
+import Project from './SingleProject';
+import SimpleFooter from './SimpleFooter';
 
 export class Home extends Component {
 
@@ -14,21 +15,7 @@ export class Home extends Component {
   render() {
     return (
       <>
-        <Navbar bg="primary" variant="dark">
-          <Container style={{ justifyContent: "space-between" }}>
-            <div>
-              <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
-            </div>
-            <div>
-              <Nav className="me-auto" style={{ gap: "30px" }}>
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#features">Education</Nav.Link>
-                <Nav.Link href="#features">Projects</Nav.Link>
-                <Nav.Link href="#pricing">Contact</Nav.Link>
-              </Nav>
-            </div>
-          </Container>
-        </Navbar>
+       
 
         {/* <Card bg="info" style={{ width: '90%' }} className="mb-2">
           
@@ -165,6 +152,8 @@ export class Home extends Component {
           </section>
           </Container>
         </main>
+
+        <SimpleFooter />
 
       </>
     )
