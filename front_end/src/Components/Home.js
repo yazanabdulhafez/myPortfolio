@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import {Container, Button, Card, Row, Col } from "reactstrap";
+import { Container, Button, Card, Row, Col } from "react-bootstrap";
 import Img from '../Assets/yazan.jpg';
-import Project from './SingleProject';
-import SimpleFooter from './SimpleFooter';
+import Contact from './contact/Contact';
+import SimpleFooter from './footer/SimpleFooter';
 
 export class Home extends Component {
 
@@ -15,48 +15,55 @@ export class Home extends Component {
   render() {
     return (
       <>
-       
 
-        {/* <Card bg="info" style={{ width: '90%' }} className="mb-2">
-          
-          <Card.Body>
-            <Card.Title> Card Title </Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk
-              of the card's content.
-            </Card.Text>
-          </Card.Body>
-        </Card> */}
 
 
         <main className="profile-page" ref="main"  >
-<Container style={{display:"flex",flexDirection:"row"}}>
+          <section>
           <Container>
-            <Card className="card-profile shadow mt--100" >
+            <Card className="card-profile shadow mt--100" style={{ marginTop: "20px" }} >
               <div className="px-4">
-                <Row className="justify-content-center">
-                  <Col className="order-lg-2" lg="3">
+                <Row className="justify-content-center" >
+                  
+                  <Col className="order-lg-2" lg="1" >
                     <div className="card-profile-image">
                       <a href="#pablo" onClick={e => e.preventDefault()}>
                         <img
                           alt="..."
                           src={Img}
                           width="500px"
-                          height="500px"
+                          height="600px"
                         />
                       </a>
                     </div>
                   </Col>
-                  </Row>
-                </div>
+                  
+                </Row>
+              </div>
             </Card>
           </Container>
+
+          <Container>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src={Img} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+          </Container>
+          </section>
+
           <section className="section">
             <Container style={{ marginTop: "20px" }}>
-              <Card className="card-profile shadow mt--100" >
+              <Card className="card-profile shadow mt--100" style={{backgroundColor:"violet"}} >
                 <div className="px-4">
                   <Row className="justify-content-center">
-        
+
                     <Col
                       className="order-lg-3 text-lg-right align-self-lg-center"
                       lg="4"
@@ -150,9 +157,10 @@ export class Home extends Component {
             </Container>
 
           </section>
-          </Container>
+          {/* </Container> */}
         </main>
 
+        <Contact />
         <SimpleFooter />
 
       </>
