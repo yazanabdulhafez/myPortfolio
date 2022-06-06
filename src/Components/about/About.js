@@ -44,7 +44,7 @@ const About = () => {
         <p>
         Starting a new path after a great experience at electrical engineering
         and working in the private sector for two years as electrical technician,
-        so I hope that my dreams come true and become a great wep developer and programmer.
+        so I hope that my dreams come true and become a great web developer and programmer.
         </p>
 
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
