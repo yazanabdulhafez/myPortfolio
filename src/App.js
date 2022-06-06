@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import Home from './Components/Home';
+// import Home from './Components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from 'react-router-dom';
-import Education from './Components/Education';
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route
+// } from 'react-router-dom';
+// import Education from './Components/Education';
 import Header from './Components/header/Header';
-import Projects from './Components/Projects';
+// import Projects from './Components/Projects';
 import Contact from './Components/contact/Contact';
 import About from './Components/about/About';
 import NavBar from './Components/nav/NavBar';

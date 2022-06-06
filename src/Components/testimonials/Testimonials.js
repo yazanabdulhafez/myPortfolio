@@ -5,7 +5,6 @@ const Testimonials = () => {
   return (
     <section id='testimonials'>
       
-      <h5></h5>
       </section >
   )
 }
