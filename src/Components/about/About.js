@@ -40,14 +40,13 @@ const About = () => {
               <small>+8 projects</small>
             </article>
           </div>
-        
-
+      
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Eveniet, obcaecati rerum animi architecto ratione autem modi
-          deleniti asperiores et expedita exercitationem alias commodi
-          harum eius ducimus quam non laboriosam dolorem.
+        Starting a new path after a great experience at electrical engineering
+        and working in the private sector for two years as electrical technician,
+        so I hope that my dreams come true and become a great wep developer and programmer.
         </p>
+
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>
       </div>
