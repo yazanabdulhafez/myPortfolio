@@ -22,7 +22,7 @@ const Services = () => {
   <p>UI design</p>
   </li>
 
-  <li>
+  {/* <li>
     <BiCheck className='service_list-icon' />
   <p>Lorem ipsum dolor sit amet.</p>
   </li>
@@ -40,7 +40,7 @@ const Services = () => {
   <li>
     <BiCheck className='service_list-icon' />
   <p>Lorem ipsum dolor sit amet.</p>
-  </li>
+  </li> */}
 
 </ul>
 
@@ -49,16 +49,16 @@ const Services = () => {
 
   <article className="service">
 <div className="service_head">
-  <h3>Backend</h3>
+  <h3>DataBase</h3>
 </div>
 
 <ul className="service_list">
   <li>
     <BiCheck className='service_list-icon' />
-  <p>build API's</p>
+  <p>connect apps with mongo db</p>
   </li>
 
-  <li>
+  {/* <li>
     <BiCheck className='service_list-icon' />
   <p>Lorem ipsum dolor sit amet.</p>
   </li>
@@ -76,7 +76,7 @@ const Services = () => {
   <li>
     <BiCheck className='service_list-icon' />
   <p>Lorem ipsum dolor sit amet.</p>
-  </li>
+  </li> */}
 
 </ul>
 
@@ -90,10 +90,15 @@ const Services = () => {
 <ul className="service_list">
   <li>
     <BiCheck className='service_list-icon' />
-  <p>Lorem ipsum dolor sit amet.</p>
+  <p>front end</p>
   </li>
 
   <li>
+    <BiCheck className='service_list-icon' />
+  <p>back end</p>
+  </li>
+
+  {/* <li>
     <BiCheck className='service_list-icon' />
   <p>Lorem ipsum dolor sit amet.</p>
   </li>
@@ -106,12 +111,7 @@ const Services = () => {
   <li>
     <BiCheck className='service_list-icon' />
   <p>Lorem ipsum dolor sit amet.</p>
-  </li>
-
-  <li>
-    <BiCheck className='service_list-icon' />
-  <p>Lorem ipsum dolor sit amet.</p>
-  </li>
+  </li> */}
 
 </ul>
 
