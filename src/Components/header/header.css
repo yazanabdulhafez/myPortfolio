@@ -61,7 +61,6 @@ header {
   overflow: hidden;
   padding: 5rem 0rem 0rem 0rem;
   margin-left: calc(50% - 11rem);
-  ;
 }
 
 
@@ -82,6 +81,16 @@ header {
 @media screen and (max-width:1024px) {
   header {
     height: 68vh;
+  }
+  .me {
+    width: 15rem;
+    height: 20rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-radius: 11rem 11rem 0 0;
+    overflow: hidden;
+    padding: 5rem 0rem 0rem 0rem;
+    margin-left: calc(50% - 7.5rem);
   }
 }
 
