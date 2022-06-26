@@ -22,12 +22,12 @@
 
 .portfolio_item-image {
   border-radius: 1.5rem;
-  height: 65rem;
   overflow: hidden;
 }
 
 .portfolio_item-image img {
   object-fit: cover;
+  height: 65rem;
 }
 
 .portfolio_item-image-second {
