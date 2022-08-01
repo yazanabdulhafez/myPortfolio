@@ -8,6 +8,7 @@ import Project5 from '../../Assets/project5.png'
 import Project6 from '../../Assets/project6.png'
 import Project7 from '../../Assets/project7.png'
 import Project8 from '../../Assets/project8.png'
+import Project9 from '../../Assets/project9.png'
 const Portfolio = () => {
 
   const data1 = [
@@ -21,8 +22,10 @@ const Portfolio = () => {
   { id: "5", image:Project5, title: "Horned Beasts", github: "https://github.com/yazanabdulhafez/HornedBeasts", demo: "https://blissful-allen-bd06f2.netlify.app/" },
   { id: "6", image:Project6, title: "NutriRes", github: "https://github.com/CRA-Geeks", demo: "https://nutrirec.netlify.app/" },
   { id: "7", image:Project7, title: "Bus Mall", github: "https://github.com/yazanabdulhafez/bus-mall", demo: "https://yazanabdulhafez.github.io/bus-mall/" },
-  { id: "8", image:Project8, title: "Can Of Books", github: "https://github.com/yazanabdulhafez/can-of-books-frontend", demo: "https://trusting-colden-84ef43.netlify.app/" }
-  ];
+  { id: "8", image:Project8, title: "Can Of Books", github: "https://github.com/yazanabdulhafez/can-of-books-frontend", demo: "https://trusting-colden-84ef43.netlify.app/"},
+  { id: "9", image:Project9, title: "Online Shop", github: "https://github.com/yazanabdulhafez/online-shop_FrontEnd", demo: "https://online-shop-ya.netlify.app/" }
+
+];
 
   return (
     <section id='portfolio'>
